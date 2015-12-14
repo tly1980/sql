@@ -37,8 +37,7 @@ class SQLRender(object):
         if os.path.exists(src):
             # this means src could be either a file or directory
             if not os.path.isdir(src):
-                for stmt in x_file(src, self.params):
-                    yield (stmt, src)
+                yield x_file(src, self.params), src
             else:
                 for root, dirs, files in os.walk(src):
                     for f in sorted(files):
