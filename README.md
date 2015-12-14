@@ -4,7 +4,13 @@
 
 SQL is fantastic tool for data processing, either ETL or generate report.
 
-As a data engineer, I enjoyed using Spark RDD API to for bigData processing, however, it turned out for a lot of things can also be easily done using Spark-SQL, or just BiqQuery by using SQL.
+As a data engineer, I enjoyed using Spark RDD API to for BigData processing, but I also found that a lot of things can also be easily done using Spark-SQL, or BiqQuery by using SQL. 
+
+The recent Spark-SQL did quite a bit code optimization that could optimize and speeds up the query. 
+
+As DSL SQL code has smaller footprint and describe the problem better, and quite often it runs faster than newbie's and less eleborated code of using RDD API.
+
+As a bonus, your code can easier migrate to BigQuery if it needs to.
 
 This tool intends to bridging the gap the SQL is not really good having parameters by, allowing you to provide parameter from command-line and render them with your SQL template files into actual SQL file your want to execute.
 
