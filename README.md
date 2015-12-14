@@ -12,7 +12,7 @@ As DSL SQL code has smaller footprint and describe the problem better, and quite
 
 As a bonus, your code can easier migrate to BigQuery if it needs to.
 
-This tool intends to bridging the gap the SQL is not really good having parameters by, allowing you to provide parameter from command-line and render them with your SQL template files into actual SQL file your want to execute.
+This tool intends to bridging the gap the SQL is not really good having parameters, by allowing you to provide parameter from command-line and render them with your SQL template files into actual SQL file your want to execute.
 
 You can speicify multiple SQL statements:
 
