@@ -87,3 +87,12 @@ CREATE temporary table TBL_C
 USING com.databricks.spark.csv
 OPTIONS (path "hdfs://CC/C", header "true");
 ```
+
+## Installation
+
+`sqlt.py` has no dependencies with other third party lib, so you can simply just download the [sqlt.py](https://raw.githubusercontent.com/tly1980/sqlt/master/sqlt.py) file. Please don't forget chmod.
+I developed it in python 2.7 environment, and it should run with 2.6 (although I haven't test it), which introduced [string-formatting]( https://docs.python.org/2/library/string.html#string-formatting )
+
+
+
+
