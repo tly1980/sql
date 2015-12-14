@@ -4,7 +4,7 @@ import logging
 import os
 
 
-AP = argparse.ArgumentParser(description="Simple SQL template render")
+AP = argparse.ArgumentParser(description="A minimalistic SQL template reander")
 AP.add_argument('src', nargs='+')
 AP.add_argument('-x', nargs='+', type=str, default=[], help='''Specify the template variables.
     Please put it as "-x a=AAA b=BBB c=CCC"''')
